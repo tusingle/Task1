@@ -4,7 +4,7 @@ import DisplayComponents from './Components/DisplayComponents';
 import ControlButtons from './Components/ControlButtons';
 
 
-function App() {
+functionname App() {
 const [time, setTime] = useState({ms:0, s:10, m:0, h:0});
 const [ interv, setInterv] = useState();
 const [ status, setStatus] = useState(0);
